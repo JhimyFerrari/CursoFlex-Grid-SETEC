@@ -8,13 +8,17 @@ html{
     font-size: 62.5%; /*10px*/
     font-family: 'Open Sans', sans-serif;
 }
-
-.flex-container-header,
+img{
+    max-width: 100%; /*nao será maior que o elemento container*/
+    display: block;
+}
+ 
 .flex-container-content{
     outline: 1px solid red;
 }
 header{
     background-color: #00694f;
+    padding: 1.6;
 }
 .flex-container-header{
     max-width: 900px;
@@ -36,6 +40,23 @@ header{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block; /*torna o inLine em Block*/
+    padding: 1.6rem;
+    font-size: 2rem;
+}
+
+.flex-container-content{
+    max-width: 900px; 
+    margin: 1.6rem  auto;
+    display: flex;
+    flex-wrap: wrap;
+         
+}
+.flex-item{
+    flex: 1 1 300px;
+}
