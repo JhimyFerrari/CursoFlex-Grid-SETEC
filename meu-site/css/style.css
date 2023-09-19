@@ -65,5 +65,13 @@ header{
 .flex-item p{
     font-size: 2rem;
     text-align: center;
+
+}
+
+@media (max-width:400px) {
+    /*Código caso a tela seja menor que 400px*/
+    .anuncio{
+        order: -1; /*define a ordem dele*/
+    }
     
 }
