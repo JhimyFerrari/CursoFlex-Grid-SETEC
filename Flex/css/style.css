@@ -58,8 +58,8 @@ header{
          
 }
 .flex-item{
-    flex: 1 1 300px; /*flex-glow flex-shrink flex-basis*/
     padding: 1.6rem;
+    flex: 1 1 300px; /*flex-glow flex-shrink flex-basis*/
 }
 
 .flex-item p{
