@@ -8,3 +8,40 @@ html{
     font-size: 62.5%; /*10px*/
     font-family: 'Open Sans', sans-serif;
 }
+
+.header,
+.sidebar-left,
+.content,
+.sidebar-right,
+.footer{
+    outline: 1px solid red;
+}
+
+
+.grid-container{
+    max-width: 900px;
+    margin: 1.6rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "sidebar-left content sidebar-right"
+    "footer footer footer";
+}
+
+.header{
+    grid-area: header;
+}
+.sidebar-left{
+    grid-area: sidebar-left;
+}
+.content{
+    grid-area: content;
+}
+.sidebar-right{
+    grid-area: sidebar-right;
+}
+.footer{
+    grid-area: footer;
+}
+
