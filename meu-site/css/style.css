@@ -9,14 +9,33 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-.flex-container-header
+.flex-container-header,
 .flex-container-content{
     outline: 1px solid red;
 }
 header{
-    background-color: #232323;
+    background-color: #00694f;
 }
 .flex-container-header{
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
 }
+.flex-container-header .logo {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
